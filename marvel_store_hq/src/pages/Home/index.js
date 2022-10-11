@@ -1,7 +1,10 @@
+import { StylesMain } from "./styled"
 
 const Home = () =>{
     return(
-        <h1>Home</h1>
+        <StylesMain>
+            <h1>Home</h1>
+        </StylesMain>
     )
 }
 
