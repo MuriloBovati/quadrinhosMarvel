@@ -4,6 +4,8 @@ import Home from '../pages/Home'
 import Pesquisa from '../pages/Pesquisa'
 import Quadrinho from '../pages/Quadrinho'
 import Carrinho from '../pages/Carrinho'
+import Contato from '../pages/Contato'
+
 
 const Routers = () =>{
     return(
@@ -13,6 +15,7 @@ const Routers = () =>{
             <Route path='/Pesquisa' element={<Pesquisa/>}/>
             <Route path='/Quadrinho' element={<Quadrinho/>}/>
             <Route path='/Carrinho' element={<Carrinho/>}/>
+            <Route path='/Contato' element={<Contato/>}/>
         </Routes>
     )
 }
