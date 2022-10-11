@@ -12,10 +12,17 @@ export const StyledHeader = styled.header`
 
     &:hover{
         background-color: #202020;
+
+        img{
+            opacity: 1;
+            transition: .5s;
+        }
     }
 
     img{
         height: 60px;
+        opacity: 0.3;
+        transition: .5s;
     }
     nav{
         display: flex;

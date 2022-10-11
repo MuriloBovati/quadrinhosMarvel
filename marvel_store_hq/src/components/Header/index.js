@@ -8,7 +8,7 @@ const Header = () => {
         <StyledHeader>
             <img src={LogoMarvel}/>
             <nav>
-                <Link to="Home">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="Pesquisa">Raros</Link>
                 <Link to="Pesquisa">Categoria</Link>
                 <Link to="Contato">Contato</Link>
