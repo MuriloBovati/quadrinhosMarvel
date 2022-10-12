@@ -1,20 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Routers from './Routers';
 import {BrowserRouter} from 'react-router-dom'
-import GlobalStyle from './globalStyle';
-import Header from './components/Header';
+import App from './App';
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <GlobalStyle/>
-      <Header></Header>
-      <Routers/>
-    </BrowserRouter>
+      <BrowserRouter>
+        <App/>
+      </BrowserRouter>
   </React.StrictMode>
 );
 

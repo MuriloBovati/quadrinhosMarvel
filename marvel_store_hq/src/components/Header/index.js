@@ -9,8 +9,6 @@ const Header = () => {
             <img src={LogoMarvel}/>
             <nav>
                 <Link to="/">Home</Link>
-                <Link to="Pesquisa">Raros</Link>
-                <Link to="Pesquisa">Categoria</Link>
                 <Link to="Contato">Contato</Link>
                 <Link to="Carrinho"><img src={ImgCarrinho}/></Link>
             </nav>
