@@ -26,7 +26,6 @@ const valorHQ = (HQ) =>{
 }
 
 const Card = ({HQ}) => {
-    console.log(`${HQ.thumbnail.path}`)
     return(
         <ContainerCard imgQuadrinho={`${HQ.thumbnail.path}.${HQ.thumbnail.extension}`} Op={testImgFundo(HQ)}>
             <TituloQuadrinho>
