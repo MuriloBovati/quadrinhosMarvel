@@ -6,11 +6,13 @@ import ImgCarrinho from '../../img/carrinho-de-compras01.png'
 const Header = () => {
     return(
         <StyledHeader>
-            <img src={LogoMarvel}/>
+            <img src={LogoMarvel} alt="Logo Da Marvel"/>
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="Contato">Contato</Link>
-                <Link to="Carrinho"><img src={ImgCarrinho}/></Link>
+                <Link to="Carrinho">
+                    <img src={ImgCarrinho} alt="Carrinho de compras"/>
+                </Link>
             </nav>
         </StyledHeader>
     )

@@ -17,6 +17,10 @@ export const StyledHeader = styled.header`
             opacity: 1;
             transition: .5s;
         }
+
+        a{
+            opacity: 1;
+        }
     }
 
     img{
@@ -34,6 +38,7 @@ export const StyledHeader = styled.header`
         margin-right: 50px;
     }
     a{
+        opacity: .2;
         color: #ffff;
         margin-left: 30px;
         text-decoration: none;

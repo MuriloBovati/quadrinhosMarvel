@@ -34,11 +34,7 @@ export const ElementsCard = styled.div`
         height: 110px;
         color: rgba(241, 178, 15, 1);
         padding: 10px;
-    }
-
-    a{
         width: 100%;
-        text-decoration: none;
-
     }
+
 ` 

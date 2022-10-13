@@ -5,14 +5,14 @@ import { ContainerRareCardStyled, ElementsCard } from "./styled"
 const RareCard = (quadrinho) => {
 
     return(
-        <ContainerRareCardStyled 
-        backgroudimg={`${quadrinho.quadrinho.thumbnail.path}.${quadrinho.quadrinho.thumbnail.extension}`}>
-            <ElementsCard>
-                <Link to="Carrinho">
-                    <h1>{quadrinho.quadrinho.title}</h1>
-                </Link>
-            </ElementsCard>
-        </ContainerRareCardStyled>
+        <Link to="Carrinho">
+            <ContainerRareCardStyled 
+            backgroudimg={`${quadrinho.quadrinho.thumbnail.path}.${quadrinho.quadrinho.thumbnail.extension}`}>
+                    <ElementsCard>
+                            <h1>{quadrinho.quadrinho.title}</h1>
+                    </ElementsCard>
+            </ContainerRareCardStyled>
+        </Link>
     )
 }
 

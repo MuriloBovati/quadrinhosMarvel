@@ -16,13 +16,13 @@ const RareCardList = () => {
             x = 0
         }
         setScrollx(x)
-        console.log(scrollx)
     }
+    
     const handleRightArrow = () =>{
         let x = scrollx - Math.round(window.innerWidth / 2)
         let totalList = items * 400
         if((window.innerWidth - totalList) > x){
-            x = (window.innerWidth - totalList) - 400
+            x = (window.innerWidth - totalList) - 480
         }
         setScrollx(x)
     }
@@ -54,7 +54,7 @@ const RareCardList = () => {
                     {listaRaros.length > 0  &&
                         listaRaros.map((quadrinho)=> {
                             return(
-                                <RareCard quadrinho={quadrinho}/>
+                                <RareCard key={listaRaros.indexOf(quadrinho)} quadrinho={quadrinho}/>
                             )
                         })
                     }

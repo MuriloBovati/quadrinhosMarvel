@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const ContainerRareListCard = styled.section`
     margin-bottom: 30px;
+    &:hover{
+        div{
+            opacity: 1;
+        }
+    }
 `
 export const MovieRowLeft = styled.div`
     border-radius: 0px 10px 10px 0px;
