@@ -13,7 +13,7 @@ const CardList = () =>{
     
     return(
         <ContainerCommunHQ>
-            <h1>Quadrinhos Teste</h1>
+            <h1>Quadrinhos Comun</h1>
             {listaQuadrinhos.length > 0 &&
                 listaQuadrinhos.map((quadrinho) => {
                     return(
